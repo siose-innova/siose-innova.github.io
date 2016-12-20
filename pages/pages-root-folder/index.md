@@ -6,22 +6,27 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: you-can-delete-me-header.png
+    title: SIOSE-INNOVA
+    background-color: "#EFC94C;"
+#    pattern: pattern_concrete.jpg
+    image_fullwidth: you-can-delete-me-header.png
+    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
+    caption_url: https://unsplash.com/
 widget1:
-  title: "Widget 1"
+  title: "Congreso AGE"
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
+  text: 'En el próximo congreso habrá una sesión especial...'
 widget2:
-  title: "Widget 2"
+  title: "Taller SIOSE "
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
+  text: 'El próximo día...'
 widget3:
-  title: "Widget 3"
+  title: "EAGLE group"
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
+  text: 'La iniciativa EAGLE busca armonizar...'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,10 +37,10 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+#callforaction:
+#  url: https://tinyletter.com/feeling-responsive
+#  text: Inform me about new updates and features ›
+#  style: alert
 permalink: /index.html
 ---
 <div id="videoModal" class="reveal-modal large" data-reveal="">

@@ -1,11 +1,11 @@
 #
 #   Navigation to the left › side: left
 #
-- title: Start
+- title: Inicio
   url: "/"
   side: left
 
-- title: "Dropdown Menu"
+- title: "Documentos"
   url: "#"
   side: left
   dropdown:
@@ -20,7 +20,7 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
+  - title: "Blog Archivo"
     url: "/blog/archive/"
 
 #
@@ -30,10 +30,10 @@
   url: "/info/"
   side: right
 
-- title: "Search"
+- title: "Buscar"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Contactar"
   url: "/contact/"
   side: right
