@@ -5,15 +5,31 @@
   url: "/"
   side: left
 
-- title: "Documentos"
+- title: "Proyecto"
   url: "#"
   side: left
   dropdown:
-  - title: "Dropdown Menu 1"
+  - title: "Objetivos"
     url: "#"
-  - title: "Dropdown Menu 2"
+  - title: "Documentos"
     url: "#"
-  - title: "Dropdown Menu 3"
+  - title: "Personas"
+    url: "#"
+
+
+- title: "Workshops"
+  url: "#"
+  side: left
+  dropdown:
+  - title: "Acerca de los talleres"
+    url: "#"
+  - title: "Solicitar un taller"
+    url: "#"
+  - title: "Asistir a un taller"
+    url: "#"
+  - title: "Talleres anteriores"
+    url: "#"
+  - title: "Próximos talleres"
     url: "#"
 
 - title: Blog
