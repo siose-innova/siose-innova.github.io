@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Info"
-subheadline: "About Your Project"
+title: "Información del Proyecto SIOSE-INNOVA"
+subheadline: "Referencia del proyecto"
 teaser: ""
 permalink: /info/
 ---
