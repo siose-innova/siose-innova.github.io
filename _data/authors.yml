@@ -14,11 +14,11 @@ benizar: # replace this with your info
 # you can add more authors here
 
 quommit: # replace this with your info
-  name: "José T. Navarro-Carrión"
+  name: "José Tomás Navarro-Carrión"
   siterole: "webmaster, developer, copywriter, designer"
   uri:
-  email:
-  twitter:
+  email: jt.navarro@ua.es
+  twitter: "@quommit"
 
 torrespri: # replace this with your info
   name: "José Torres-Prieto"
