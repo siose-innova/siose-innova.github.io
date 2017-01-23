@@ -10,7 +10,7 @@
   side: left
   dropdown:
   - title: "Objetivos"
-    url: "#"
+    url: "/project/objectives/"
   - title: "Documentos"
     url: "#"
   - title: "Personas"
