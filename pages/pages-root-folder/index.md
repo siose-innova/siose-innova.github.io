@@ -6,10 +6,10 @@
 #
 layout: frontpage
 header:
-    title: SIOSE-INNOVA
+#    title: SIOSE-INNOVA
     background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
-    image_fullwidth: you-can-delete-me-header.png
+    image_fullwidth: "header_teide.png"
     caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
     caption_url: https://unsplash.com/
 widget1:
