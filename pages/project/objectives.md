@@ -7,6 +7,8 @@ teaser: ""
 permalink: "/project/objectives/"
 ---
 
+Cambiaremos por una serie de listas numeradas de objetivos.
+
 Los objetivos principales de este proyecto tienen una parte de innovación técnica y otra aplicada. La innovación técnica consiste en integrar nuevas tecnologías de bases de datos geoespaciales que permiten almacenar los datos geográficos modelizados como objetos de un modo más natural. Complementariamente, la parte aplicada consistirá en utilizar estas nuevas tecnologías en casos reales de estudio que puedan beneficiarse en mayor medida del modelo orientado a objetos del SIOSE.
 
 Los desarrollos planteados en esta propuesta servirán para aumentar la accesibilidad y capacidad de uso de los datos LU/LC en España. Esto conllevará un mejor aprovechamiento de los recursos tecnológicos proporcionados por el Instituto Geográfico Nacional, así como significativos ahorros de tiempo y recursos en la realización de estudios de carácter geográfico.
