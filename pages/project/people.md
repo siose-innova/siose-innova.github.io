@@ -1,4 +1,13 @@
 
+---
+layout: page
+title: "Equipo Humano"
+meta_title: "Objetivos del SIOSE-INNOVA"
+subheadline: ""
+teaser: ""
+permalink: "/project/people/"
+---
+
 Nombre        | Apellidos             | Organización                            | Departamento                        | Email contacto  |
 --------------|-----------------------|-----------------------------------------|-------------------------------------|-----------------|
 Maria Elena   |Caballero García       | Instituto Geográfico Nacional| Servicio de Ocupación del Suelo| mecaballero@fomento.es|
