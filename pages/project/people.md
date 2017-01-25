@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Equipo Humano"
+title: "personas"
 meta_title: "Objetivos del SIOSE-INNOVA"
 subheadline: ""
 teaser: ""
