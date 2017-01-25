@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: "Equipo Humano"
@@ -7,6 +6,8 @@ subheadline: ""
 teaser: ""
 permalink: "/project/people/"
 ---
+
+
 
 Nombre        | Apellidos             | Organización                            | Departamento                        | Email contacto  |
 --------------|-----------------------|-----------------------------------------|-------------------------------------|-----------------|
