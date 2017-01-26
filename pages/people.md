@@ -4,7 +4,7 @@ title: "Equipo investigador"
 meta_title: "Equipo investigador del proyecto"
 subheadline: ""
 teaser: ""
-permalink: "/project/people/"
+permalink: "/people/"
 header:
 #    title: SIOSE-INNOVA
 #    background-color: "#EFC94C;"

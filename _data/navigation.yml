@@ -10,22 +10,15 @@
   side: left
 
 - title: "Proyecto"
-  url: "/project/presentation/"
+  url: "/project/"
   side: left
-  dropdown:
-  - title: "Presentación"
-    url: "/project/presentation/"
-  - title: "Objetivos"
-    url: "/project/objectives/"
-  - title: "Cronograma"
-    url: "/project/chronogram/"
 
 - title: "Contactar"
   url: "/contact/"
   side: left
 
-- title: "Equipo investigador"
-  url: "/project/people/"
+- title: "Equipo"
+  url: "/people/"
   side: left
 
 #
