@@ -7,7 +7,7 @@
 layout: frontpage
 header:
 #    title: SIOSE-INNOVA
-    background-color: "#EFC94C;"
+#    background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
     image_fullwidth: /headers/almond-1287798_1920.jpg
     caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
@@ -18,7 +18,7 @@ widget1:
   image: 'http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/Figura_MDOO.png'
   text: 'SIOSE es el Sistema de Información sobre Ocupación del Suelo de España, integrado dentro del Plan Nacional de Observación del Territorio (PNOT) cuyo objetivo es generar una base de datos de Ocupación del Suelo para toda España...'
 widget2:
-  title: "Taller SIOSE "
+  title: "Arranca el proyecto SIOSE-INNOVA"
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: 'El próximo día...'

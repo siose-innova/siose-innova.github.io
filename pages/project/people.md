@@ -1,12 +1,18 @@
 ---
 layout: page
-title: "personas"
-meta_title: "Objetivos del SIOSE-INNOVA"
+title: "Equipo investigador"
+meta_title: "Equipo investigador del proyecto"
 subheadline: ""
 teaser: ""
 permalink: "/project/people/"
+header:
+#    title: SIOSE-INNOVA
+#    background-color: "#EFC94C;"
+#    pattern: pattern_concrete.jpg
+    image_fullwidth: /headers/almond-1287798_1920.jpg
+    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
+    caption_url: https://unsplash.com/
 ---
-
 
 
 Nombre        | Apellidos             | Organización                            | Departamento                        | Email contacto  |

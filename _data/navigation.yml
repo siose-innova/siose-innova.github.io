@@ -5,51 +5,44 @@
   url: "/"
   side: left
 
+- title: "Antecedentes"
+  url: "/background/"
+  side: left
+
 - title: "Proyecto"
-  url: "#"
+  url: "/project/presentation/"
   side: left
   dropdown:
+  - title: "Presentación"
+    url: "/project/presentation/"
   - title: "Objetivos"
     url: "/project/objectives/"
-  - title: "Documentos"
-    url: "/project/documents/"
-  - title: "Personas"
-    url: "#"
+  - title: "Cronograma"
+    url: "/project/chronogram/"
 
-
-- title: "Workshops"
-  url: "#"
+- title: "Contactar"
+  url: "/contact/"
   side: left
-  dropdown:
-  - title: "Acerca de los talleres"
-    url: "#"
-  - title: "Solicitar un taller"
-    url: "#"
-  - title: "Asistir a un taller"
-    url: "#"
-  - title: "Talleres anteriores"
-    url: "#"
-  - title: "Próximos talleres"
-    url: "#"
 
-- title: Blog
-  url: "/blog/"
+- title: "Equipo investigador"
+  url: "/project/people/"
   side: left
-  dropdown:
-  - title: "Blog Archivo"
-    url: "/blog/archive/"
 
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
+- title: Publicaciones
+  url: "/publications/"
   side: right
 
-- title: "Buscar"
-  url: "/search/"
+- title: Eventos
+  url: "/events/"
   side: right
 
-- title: "Contactar"
-  url: "/contact/"
+- title: Blog
+  url: "/blog/"
   side: right
+  dropdown:
+  - title: "Blog Archivo"
+    url: "/blog/archive/"
+
