@@ -1,0 +1,166 @@
+shortname: UA
+name: Universidad de Alicante
+url: http://www.ua.es
+members:
+  - name: Alfredo Ramón-Morte
+    position: Investigador Principal
+    department: Dpto. de Análisis Geográfico Regional y Geografía Física
+    keywords:
+      - sig
+      - ordenación del territorio
+      - geografía
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: alfredo.ramon@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://www.researchgate.net/profile/Alfredo_Ramon_Morte
+        class: icon-home
+      - title: linkedin
+        url: https://es.linkedin.com/in/alfredo-ramon-3b44b232
+        class: icon-linkedin
+  - name: Antonio Belda-Antolí
+    position: Técnico especialista
+    department: Dpto. de Ciencias de la Tierra y Medio Ambiente
+    keywords:
+      - ecología
+      - biología
+      - botánica
+      - micología
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: antonio.belda@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://scholar.google.es/citations?user=OZMpDVsAAAAJ&hl=es
+        class: icon-home
+  - name: Antonio Rico-Amorós
+    position: Catedrático de Universidad
+    department: Instituto Interuniversitario de Geografía
+    keywords:
+      - ordenación del territorio
+      - recursos hídricos
+      - riesgos naturales
+      - desarrollo regional
+      - geografía rural
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: am.rico@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://www.researchgate.net/profile/Antonio_Amoros
+        class: icon-home
+  - name: Ascensión Padilla Blanco
+    position: Profesora Titular de Universidad
+    department:  Dpto. de Análisis Geográfico Regional y Geografía Física
+    keywords:
+      - geografía física
+      - biogeografía
+      - cartografía
+      - sig
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: ma.padilla@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://www.researchgate.net/profile/Ascension_Padilla
+        class: icon-home
+  - name: Benito Zaragozí
+    position: Investigador Colaborador
+    department:  Instituto Universitario de Investigación Informáticas
+    keywords:
+      - sig
+      - geodatabases
+      - spatial data mining
+      - giscience
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: benito.zaragozi@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: http://benito-zaragozi.com
+        class: icon-home
+      - title: linkedin
+        url: https://es.linkedin.com/in/benito-m-zaragozí-295b6940
+        class: icon-linkedin
+      - title: github
+        url: https://github.com/benizar
+        class: icon-github
+  - name: Gabino Ponce Herrero
+    position: Catedrático de Universidad
+    department:  Dpto. de Geografía Humana
+    keywords:
+      - urbanismo
+      - ordenación del territorio
+      - población
+      - desarrollo regional
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: ponce@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://dialnet.unirioja.es/servlet/autor?codigo=172501
+        class: icon-home
+  - name: José Ramón Valero Escandell
+    position: Profesor Titular de Universidad
+    department: Dpto. de Geografía Humana
+    keywords:
+      - geografía urbana
+      - demografía
+      - migraciones
+      - geografía histórica
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: jose.valero@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://scholar.google.com/citations?user=qQep3VEAAAAJ
+        class: icon-home
+  - name: Juan Antonio Marco Molina
+    position: Catedrático de Universidad
+    department:  Dpto. de Análisis Geográfico Regional y Geografía Física
+    keywords:
+      - geografía física
+      - geomorfología
+      - biogeografía
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: ja.marco@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://www.researchgate.net/profile/Juan_Marco_Molina
+        class: icon-home
+  - name: Pablo Giménez Font
+    position: Profesor Titular de Universidad
+    department:  Dpto. de Análisis Geográfico Regional y Geografía Física
+    keywords:
+      - geografía física
+      - geomorfología
+      - biogeografía
+      - usos del suelo
+      - geografía histórica
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: p.gimenezfont@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://www.researchgate.net/profile/Pablo_Font2
+        class: icon-home

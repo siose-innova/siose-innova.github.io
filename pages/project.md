@@ -5,7 +5,7 @@ title: "Proyecto SIOSE-INNOVA"
 meta_title: "El SIOSE surge..."
 subheadline: "Información"
 
-teaser: "En este sitio web se publicará toda la información relacionada con el proyecto de investigación bajo el acrónimo SIOSE-INNOVA."
+teaser: "El Proyecto SIOSE-INNOVA es un proyecto de investigación financiado por el Programa Estatal de Investigación, Desarrollo e Innovación Orientada a los Retos de la Sociedad, en el marco del Plan Estatal de Investigación Científica y Técnica y de Innovación 2013-2016."
 
 meta_teaser: ""
 
@@ -51,25 +51,24 @@ categories:
 - **Centro:** Instituto Universitario de Geografía
 - **Título:** Innovaciones técnicas y metodológicas en el Sistema de Información sobre Ocupación del Suelo de España (SIOSE) y su aplicación en estudios geográficos.
 - **Duración:** 3 años (2017-2020)
+- **Costes directos:** 19.000 €
 - **Palabras clave:** `usos y coberturas del suelo`, `corine land cover`, `inspire`, `estándares`, `siose`, `modelización orientada a objetos`, `geodatabases`, `nosql`, `medio ambiente`, `sostenibilidad`
 
 
-## Objetivos principales
+## Objetivos
 
-Este proyecto se organiza en dos partes complementarias, una parte de innovación técnica y otra aplicada:
+Este proyecto se organiza en dos partes complementarias:
 
-1. La innovación técnica consiste en comprobar qué tecnologías NoSQL aportan las mejores soluciones para explotar determinadas facetas de la base de datos SIOSE, 
-2. La parte aplicada implica la puesta en práctica de estas nuevas tecnologías en casos de estudio reales.
+1. Una parte de **innovación técnica** que consiste en comprobar qué tecnologías NoSQL aportan las mejores soluciones para explotar determinadas facetas de la base de datos SIOSE
+2. Una parte **aplicada** que implica la puesta en práctica de estas nuevas tecnologías en casos de estudio reales.
 
-
-## Objetivos específicos
  
-Este proyecto se desarrollará durante 3 años en los que, de modo progresivo, se alcanzarán los siguientes objetivos específicos:
+Durante los tres años que durará el proyecto se alcanzarán los siguientes objetivos específicos:
 
-1. Crear un marco de experimentación reproducible y fácilmente utilizable por un gran número de usuarios. Además, este marco metodológico deberá servir para su puesta en producción desde el Instituto Geográfico Nacional.
-2. Analizar las necesidades y rendimiento de distintas tecnologías de bases de datos NoSQL para la explotación del SIOSE.
-3. Desarrollar e implementar un nuevo modelo de datos auxiliar que permita extender las posibilidades de análisis del SIOSE con técnicas de Big Data o Data Mining.
-4. Evaluar la usabilidad de los datos SIOSE en distintas plataformas tecnológicas, mediante su aplicación en casos de uso reales en los que utilizar datos de ocupación del suelo resulte esencial.
+1. **Crear un marco de experimentación reproducible** y fácilmente utilizable por un gran número de usuarios.
+2. **Analizar** las necesidades y rendimiento de distintas tecnologías de **bases de datos NoSQL** para la explotación del SIOSE.
+3. **Desarrollar e implementar un nuevo modelo de datos auxiliar** que permita extender las posibilidades de análisis del SIOSE con técnicas de Big Data o Data Mining.
+4. **Evaluar la usabilidad de los datos SIOSE** en distintas plataformas tecnológicas, mediante su aplicación en **casos de uso reales** en los que utilizar datos de ocupación del suelo resulte esencial.
 
 
 ## Resumen

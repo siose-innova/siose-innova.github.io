@@ -1,8 +1,8 @@
 ---
-layout: page
-title: "Equipo investigador"
-meta_title: "Equipo investigador del proyecto"
-subheadline: ""
+layout: page-fullwidth
+title: "Investigadores del proyecto"
+meta_title: "Equipo"
+subheadline: "Conozca al equipo"
 teaser: ""
 permalink: "/people/"
 header:
@@ -15,26 +15,70 @@ header:
 ---
 
 
-Nombre        | Apellidos             | Organización                            | Departamento                        | Email contacto  |
---------------|-----------------------|-----------------------------------------|-------------------------------------|-----------------|
-Maria Elena   |Caballero García       | Instituto Geográfico Nacional| Servicio de Ocupación del Suelo| mecaballero@fomento.es|
-Julián| Delgado Hernández| Instituto Geográfico Nacional| Servicio de Ocupación del Suelo| jdhernandez@fomento.es|
-Nuria| Valcárcel| Instituto Geográfico Nacional| Servicio de Ocupación del Suelo| nvalcarcel@fomento.es|
-Antonio|Belda Antolí| Universidad de Alicante| Dpto. de Ciéncias de la Tierra y Medio Ambiente| antonio.belda@ua.es|
-Miguel|Fernández Moreno| Universidad de Alicante| Instituto Interuniversitario de Geografía| miguel.fernandez@ua.es|
-Pablo| Giménez Font| Universidad de Alicante| Instituto Interuniversitario de Geografía| p.gimenezfont@ua.es|
-Juan Antonio|Marco Molina|Universidad de Alicante|Instituto Interuniversitario de Geografía|ja.marco@ua.es|
-José Manuel|Mira Martínez|Universidad de Alicante|Instituto Interuniversitario de Geografía|jose.mira@ua.es|
-José Tomás|Navarro Carrión|Universidad de Alicante|Instituto Interuniversitario de Geografía|jt.navarro@ua.es|
-Ascensión|Padilla Blanco|Universidad de Alicante|Instituto Interuniversitario de Geografía|ma.padilla@ua.es|
-Gabino|Ponce Herrero|Universidad de Alicante|Instituto Interuniversitario de Geografía|gabino.ponce@ua.es|
-Alfredo|Ramón Morte|Universidad de Alicante|Instituto Interuniversitario de Geografía|alfredo.ramon@ua.es|
-Antonio|Rico Amorós|Universidad de Alicante|Instituto Interuniversitario de Geografía|am.rico@ua.es|
-José|Torres Prieto|Universidad de Alicante|Instituto Interuniversitario de Geografía|pepe.torres@ua.es|
-José Ramón|Valero Escandell|Universidad de Alicante|Instituto Interuniversitario de Geografía|jose.valero@ua.es|
-Benito|Zaragozí Zaragozí|Universidad de Alicante|Instituto Universitario de Investigaciones Informáticas|benito.zaragozi@ua.es|
-Alejandro|Rabasa Dolado|Universidad Miguel Hernández de Elche|Estadística, Matemáticas e Informática|a.rabasa@umh.es|
-Jesús Javier|Rodríguez Sala|Universidad Miguel Hernández de Elche| Estadística, Matemáticas e Informática|jesuja.rodriguez@umh.es|
-Enrique|Montón Chiva|Universitat Jaume I de Castellón|Dpto. de Historia, Geografía y Arte|montone@uji.es|
+El grupo de investigación SIOSE-INNOVA está formado por geógrafos, informáticos, biólogos y físicos que aportan un enfoque multidisciplinar para trabajar con las bases de datos de ocupación del suelo. La coordinación del proyecto se realiza desde la **Universidad de Alicante** y participan de un modo activo investigadores del **Instituto Geográfico Nacional**, la **Universidad Miguel Hernández de Elche** y la **Universidad Jaume I de Castellón**.
 
+
+{% for org_hash in site.data.orgs %}
+{% assign org = org_hash[1] %}
+
+<h2>{{ org.name }}</h2>
+
+
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+
+
+{% for member in org.members %}
+
+
+
+
+<li>
+
+<a class="th" href="{{ member.social.first.url }}">
+<img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}">
+</a>
+
+
+<ul class="inline-list">
+
+	{% for email in member.email %}
+              <li><a href="mailto:{{ email.url }}" class="{{ email.class }}" title="{{ email.title }}"></a></li>
+	{% endfor %}
+
+
+	{% for social in member.social %}
+              <li><a href="{{ social.url }}" target="_blank" class="{{ social.class }}" title="{{ social.title }}"></a></li>
+	{% endfor %}
+</ul>
+
+
+
+{% if member.name %}
+	<h4>{{ member.name }}</h4>
+{% endif %}
+
+{% if member.department %}
+	<i>{{ member.department }}</i><br/>
+{% endif %}
+
+
+<strong>Palabras clave:</strong>
+<ul>
+{% for keyword in member.keywords %}
+	<li><code class="highlighter-rouge">{{ keyword }}</code></li>
+{% endfor %}
+</ul>
+
+</li>
+
+
+
+
+
+{% endfor %}
+
+</ul>
+
+
+{% endfor %}
 
