@@ -1,34 +1,39 @@
 shortname: UMH
-name: Universidad Miguel Hernández de Elche
+name: Universidad Miguel Hernández
 url: http://www.umh.es
-departments: 
-  - shortname: CIO
-    name: Departamento de Estadística, Matemáticas e Informática.
-    members:
-      - name: Alejandro Rabasa Dolado
-        pic: user_placeholder.png
-        position: Profesor Contratado Doctor
-        email: 
-          - title: E-mail
-            url: a.rabasa@umh.es
-            class: icon-mail
-        social:
-          - title: home
-            url: http://cio.umh.es/investigacion/investigadores/arabasa
-            class: icon-home
-          - title: linkedin
-            url: 
-      - name: Jesús Javier Rodríguez Sala
-        pic: user_placeholder.png
-        position: Profesor colaborador
-        email: 
-          - title: E-mail
-            url: jesuja.rodriguez@umh.es
-            class: icon-mail
-        social:
-          - title: home
-            url: http://cio.umh.es/investigacion/investigadores/jesujarodriguez
-            class: icon-home
-          - title: linkedin
-            url: https://es.linkedin.com/in/jes%C3%BAs-javier-rodr%C3%ADguez-sala-b196754b
-            class: icon-linkedin
+members:
+  - name: Alejandro Rabasa Dolado
+    pic: user_placeholder.png
+    position: Profesor Contratado Doctor
+    department: Dpto. de Estadística, Matemáticas e Informática
+    keywords:
+      - data mining
+      - reglas de clasificación
+      - algoritmos
+    email: 
+      - title: E-mail
+        url: a.rabasa@umh.es
+        class: icon-mail
+    social:
+      - title: home
+        url: http://cio.umh.es/investigacion/investigadores/arabasa
+        class: icon-home
+  - name: Jesús Javier Rodríguez Sala
+    pic: user_placeholder.png
+    position: Profesor colaborador
+    department: Dpto. de Estadística, Matemáticas e Informática
+    keywords:
+      - data mining
+      - reglas de clasificación
+      - algoritmos
+    email: 
+      - title: E-mail
+        url: jesuja.rodriguez@umh.es
+        class: icon-mail
+    social:
+      - title: home
+        url: http://cio.umh.es/investigacion/investigadores/jesujarodriguez
+        class: icon-home
+      - title: linkedin
+        url: https://es.linkedin.com/in/jes%C3%BAs-javier-rodr%C3%ADguez-sala-b196754b
+        class: icon-linkedin
