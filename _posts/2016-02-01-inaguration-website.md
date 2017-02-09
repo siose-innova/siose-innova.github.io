@@ -1,61 +1,34 @@
 ---
 layout: page
 
-title: "Inauguración de la página web del proyecto"
+author: benizar
+title: "Presentación de la nueva página web"
 metatitle: "Post"
 subheadline: "Sobre el sitio web"
-
-author: benizar
-
-teaser: "El equipo de SIOSE-INNOVA inaugura su nueva página web, desarrollada con software libre y buscando la misma flexibilidad que en el planteamiento del proyecto."
+teaser: "Durante el último mes, hemos trabajado para desarrollar este nuevo sitio web que facilitará descubrir toda la información relacionada con el proyecto SIOSE-INNOVA."
 
 categories:
   - noticias
 tags:
   - proyecto
-  - bienvenida
   - sitio web
-#
-# Styling
-#
-#image:
-#  header: ""
-#  thumb: "you-can-delete-me-thumb.png"
-#  homepage: "you-can-delete-me-homepage.png"
-#  caption: "Caption?"
-#  url: "http://phlow.de/"
+
+header:
+#    title: SIOSE-INNOVA
+#    background-color: "#EFC94C;"
+#    pattern: pattern_concrete.jpg
+    image_fullwidth: /headers/almond-1287798_1920.jpg
+    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
+    caption_url: https://unsplash.com/
 ---
-
-## Estructura
-
-La página está estructurada del siguiente modo:
-
-Inicio
-: Información sobre las últimas novedades del proyecto.
-
-Antecedentes
-: Información de contexto
-
-Proyecto
-: Detalles básicos del proyecto, objetivos y resumen.
-
-Contactar
-: Información de contacto con los coordinadores del proyecto.
-
-Equipo
-: Breve presentación de los miembros participantes en el proyecto.
-
-Publicaciones
-: Recoge listados de las publicaciones del grupo y bibliografía de interés.
-
-Eventos
-: Información sobre los talleres y seminarios organizados, así como otros eventos y congresos en los que se participará.
-
-Blog
-: Un blog en el que se publicarán noticias y documentación de interés sobre el proyecto.
 
 
 ## Desarrollo de la web
 
-Esta página web ha sido desarrollada utilizando Jekyll y está basada en el tema Feeling Responsive.
+Esta página web ha sido desarrollada utilizando [Jekyll](https://jekyllrb.com/) y está basada en el tema [Feeling Responsive](https://phlow.github.io/feeling-responsive/). Además, el sitio web se publica desde [GitHub Pages](https://pages.github.com/). El uso software libre y la gestión *descentralizada* de cada proyecto son parte del día a día en el Proyecto SIOSE-INNOVA. El desarrollo de la página web con estas tecnologías es en sí una declaración de intenciones.
 
+## Siempre informados de los últimos desarrollos
+
+El proyecto SIOSE-INNOVA es un proyecto multidisciplinar en el que colaboran investigadores de distintos centros. Desde esta página web informaremos sobre todos los avances realizados en el proyecto y, en breve, también se publicarán noticias por otros medios (Twitter, Facebook, lista de E-mails, etc). Por el momento, puede seguir las últimas novedades suscribiendose a [RSS](/feed.xml) o [Atom](/atom.xml).
+
+Si desea hablar con nosotros personalmente, no dude en contactar con la [coordinación del proyecto](/contact/).

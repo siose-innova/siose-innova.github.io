@@ -49,7 +49,7 @@ header:
 <h2 data-magellan-destination="{{ org.shortname }}"><a name="{{ org.shortname }}"></a>{{ org.name }}</h2>
 
 
-<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5">
 
 
 {% for member in org.members %}
@@ -58,7 +58,7 @@ header:
 
 <!-- click on image will navigate to the personal website -->
 <a class="th" href="{{ member.social.first.url }}">
-<img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}">
+<img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}" style="padding:20px">
 </a>
 
 
@@ -104,4 +104,3 @@ header:
 </div>
 
 {% endfor %}
-
