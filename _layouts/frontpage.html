@@ -10,6 +10,26 @@ format: blog-index
 </div><!-- /#header-home -->
 
 
+
+{% comment %}
+*
+* Added a quote at the beggining
+*
+{% endcomment %}
+
+{% if page.quote %}
+<div class="row t60">
+<blockquote>
+	
+	<strong>{{ page.quote.title }}</strong> {{ page.quote.text }}
+
+</blockquote>
+</div><!-- /.row -->
+{% endif %}
+
+
+
+
 {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title

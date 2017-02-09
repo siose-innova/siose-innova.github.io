@@ -4,6 +4,8 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
+permalink: /index.html
+
 layout: frontpage
 header:
 #    title: SIOSE-INNOVA
@@ -12,6 +14,11 @@ header:
     image_fullwidth: /headers/almond-1287798_1920.jpg
     caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
     caption_url: https://unsplash.com/
+
+quote:
+  title: "PROBLEMA."
+  text: 'Las bases de datos de ocupación del suelo caen en un error que es frequente en los cartografos que utilizan Sistemas de Información Geográfica: utilizan la base de datos para describir un mapa, no para describir la realidad (Villa et al., 2008).'
+
 widget2:
   title: "Última publicación"
   url: 'https://www.witpress.com/elibrary/dne-volumes/11/3/1215'
@@ -42,8 +49,8 @@ widget3:
 callforaction:
   url: https://github.com/siose-innova
   text: Zona de desarrolladores ›
-  style: alert
-permalink: /index.html
+  style: secondary
+
 ---
 
 
