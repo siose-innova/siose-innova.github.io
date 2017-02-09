@@ -23,9 +23,9 @@ quommit: # replace this with your info
 torrespri: # replace this with your info
   name: "José Torres-Prieto"
   siterole: "webmaster, developer, copywriter, designer"
-  uri:
-  email:
-  twitter:
+  uri: https://torrespri.github.io/
+  email: pepe.torres@ua.es
+  twitter: "@torrespri"
   
 alfredo: # replace this with your info
   name: "Alfredo Ramón-Morte"
