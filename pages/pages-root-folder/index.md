@@ -17,7 +17,7 @@ header:
 
 quote:
   title: "PROBLEMA."
-  text: 'Las bases de datos de ocupación del suelo caen en un error que es frequente en los cartografos que utilizan Sistemas de Información Geográfica: utilizan la base de datos para describir un mapa, no para describir la realidad (Villa et al., 2008).'
+  text: 'Las bases de datos de ocupación del suelo caen en un error que es frecuente entre los cartógrafos que comienzan a utilizar Sistemas de Información Geográfica: utilizan la base de datos para describir un mapa, no para describir la realidad (Villa et al., 2008).'
 
 widget2:
   title: "Última publicación"
