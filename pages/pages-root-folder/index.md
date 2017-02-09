@@ -40,8 +40,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Si lo desea puede ir a la zona de desarrolladores ›
+  url: https://github.com/siose-innova
+  text: Zona de desarrolladores ›
   style: alert
 permalink: /index.html
 ---

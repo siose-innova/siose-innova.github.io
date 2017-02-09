@@ -1,10 +1,12 @@
 ---
-layout: page-fullwidth
-title: "Contactar"
-meta_title: "Contactar"
-subheadline: "Coordinación"
-teaser: ""
 permalink: "/contact/"
+
+layout: page-fullwidth
+title: "Contacte con nosotros"
+meta_title: "Contactar"
+subheadline: "Contactar"
+teaser: ""
+
 header:
     image_fullwidth: /headers/almond-1287798_1920.jpg
 ---

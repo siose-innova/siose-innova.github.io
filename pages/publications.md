@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Publicaciones"
-meta_title: "Publicaciones del grupo"
-subheadline: ""
-teaser: ""
+title: "Publicaciones del proyecto"
+meta_title: "Publicaciones"
+subheadline: "Publicaciones"
+teaser: "ATENCIÓN. Esta página está en construcción."
 permalink: "/publications/"
 header:
     image_fullwidth: /headers/almond-1287798_1920.jpg
@@ -11,4 +11,4 @@ header:
     caption_url: https://unsplash.com/
 ---
 
-Aquí irá el listado de publicaciones compilado con jekyll-scholar
+

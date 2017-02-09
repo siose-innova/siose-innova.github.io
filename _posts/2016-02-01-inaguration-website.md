@@ -1,12 +1,14 @@
 ---
 layout: page
-#
-# Content
-#
-subheadline: "Noticia"
+
 title: "Inauguración de la página web del proyecto"
+metatitle: "Post"
+subheadline: "Sobre el sitio web"
+
 author: benizar
+
 teaser: "El equipo de SIOSE-INNOVA inaugura su nueva página web, desarrollada con software libre y buscando la misma flexibilidad que en el planteamiento del proyecto."
+
 categories:
   - noticias
 tags:
@@ -28,13 +30,32 @@ tags:
 
 La página está estructurada del siguiente modo:
 
-1. La página de inicio en la que se informará de las últimas novedades del proyecto y se puede navegar para encontrar la información más interesante.
+Inicio
+: Información sobre las últimas novedades del proyecto.
+
+Antecedentes
+: Información de contexto
+
+Proyecto
+: Detalles básicos del proyecto, objetivos y resumen.
+
+Contactar
+: Información de contacto con los coordinadores del proyecto.
+
+Equipo
+: Breve presentación de los miembros participantes en el proyecto.
+
+Publicaciones
+: Recoge listados de las publicaciones del grupo y bibliografía de interés.
+
+Eventos
+: Información sobre los talleres y seminarios organizados, así como otros eventos y congresos en los que se participará.
+
+Blog
+: Un blog en el que se publicarán noticias y documentación de interés sobre el proyecto.
 
 
 ## Desarrollo de la web
 
-
-
-## Web descentralizada
-
+Esta página web ha sido desarrollada utilizando Jekyll y está basada en el tema Feeling Responsive.
 

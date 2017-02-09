@@ -18,24 +18,19 @@ header:
     caption_url: https://unsplash.com/
 ---
 
-
-<dl class="sub-nav" role="menu" title="Ir a esta sección">
+<div data-magellan-expedition>  
+<dl class="sub-nav" title="Ver participantes">
+<dt>Participan:</dt>
 
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
 
 
 {% if org.shortname == "UA" %}
-    <dd class="active" role="menuitem"><a href="#{{ org.shortname }}">{{ org.name }}
+    <dd data-magellan-arrival="{{ org.shortname }}" class=""><a href="#{{ org.shortname }}">{{ org.name }}
 {% else %}
-    <dd role="menuitem"><a href="#{{ org.shortname }}">{{ org.name }}
+    <dd data-magellan-arrival="{{ org.shortname }}" class=""><a href="#{{ org.shortname }}">{{ org.name }}
 {% endif %}
-
-
-
-
-
-
 
 
 </a></dd>
@@ -44,14 +39,14 @@ header:
 
 </dl>
 
-
+</div>
 
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
 
 <div id="{{ org.shortname }}">
 
-<h2>{{ org.name }}</h2>
+<h2 data-magellan-destination="{{ org.shortname }}"><a name="{{ org.shortname }}"></a>{{ org.name }}</h2>
 
 
 <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
@@ -69,7 +64,7 @@ header:
 
 <ul class="inline-list">
 	{% for email in member.email %}
-              <li><a href="mailto:{{ email.url }}" class="{{ email.class }}" title="{{ email.title }}"></a></li>
+              <li><a href="mailto:{{ email.url }}?subject=Proyecto SIOSE-INNOVA" class="{{ email.class }}" title="{{ email.title }}"></a></li>
 	{% endfor %}
 
 

@@ -1,21 +1,6 @@
-- menu_name: "Agradecimientos"
+- menu_name: "Otros grupos"
 
-- name: "Iconos por Daniel Bruce"
-  url: "http://entypo.com/"
+- name: "MedSPai"
+  url: "http://rua.ua.es/dspace/handle/10045/8664"
   class: "network-entypo"
-  title: "Iconos por Daniel Bruce"
-
-- name: "Construida sobre Foundation"
-  url: "http://foundation.zurb.com/"
-  class: "services-newsletter"
-  title: "Construida sobre Foundation"
-
-- name: "Imágenes de Unsplash"
-  url: "http://unsplash.com/"
-  class: "rss-link"
-  title: "Imágenes de Unsplash"
-
-- name: "Utilizando Backstretch de Scott Robbin"
-  url: "http://srobbin.com/jquery-plugins/backstretch/"
-  class: "sitemap-link"
-  title: "Utilizando Backstretch de Scott Robbin"
+  title: "Medio, Sociedad y Paisaje (MedSPai)"
