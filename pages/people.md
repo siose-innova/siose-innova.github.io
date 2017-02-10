@@ -25,11 +25,8 @@ header:
 {% for member in site.data.people %}
 
 
-
 <li>
-
 <div itemscope itemtype="http://schema.org/Person">
-
 
 <h5>
 {% if member.name %}
@@ -42,14 +39,12 @@ header:
 </h5>
 
 
-
-
 <!-- click on image will navigate to the personal website -->
 <a class="th" href="{{ member.social.first.url }}">
 <img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}" style="padding:10px">
 </a>
 
-
+<!-- social media icons -->
 <ul class="inline-list">
 	{% for email in member.email %}
               <li><a href="mailto:{{ email.url }}?subject=Proyecto SIOSE-INNOVA" class="{{ email.class }}" title="{{ email.title }}"></a></li>
@@ -81,9 +76,5 @@ header:
 
 
 </div> <!-- http://schema.org/Person -->
-
 </li>
-
-
-
 {% endfor %}

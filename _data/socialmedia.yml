@@ -1,17 +1,17 @@
 - name: GitHub
   url: https://github.com/siose-innova
   class: icon-github
-  title: ""
+  title: "GitHub"
 
-- name: YouTube
-  url: http://www.youtube.com/
-  class: icon-youtube
-  title: ""
+#- name: YouTube
+#  url: http://www.youtube.com/
+#  class: icon-youtube
+#  title: ""
 
-- name: Twitter
-  url: http://twitter.com/
-  class: icon-twitter
-  title: ""
+#- name: Twitter
+#  url: http://twitter.com/
+#  class: icon-twitter
+#  title: ""
 
 # - name: Mixcloud
 #   url: http://www.mixcloud.com/
