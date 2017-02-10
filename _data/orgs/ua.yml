@@ -162,3 +162,24 @@ members:
       - title: home
         url: https://www.researchgate.net/profile/Pablo_Font2
         class: icon-home
+       
+ - name: Pepe Torres Prieto
+    position: Técnico Informático
+    department:  Instituto Interuniversitario de Geografía
+    keywords:
+      - web
+      - desarrollo
+      - bases de datos
+      - administracion de sistemas
+    pic: user_placeholder.png
+    email: 
+      - title: E-mail
+        url: pepe.torres@ua.es
+        class: icon-mail
+    social:
+      - title: home
+        url: https://torrespri.github.io/
+        class: icon-home
+              
+       
+
