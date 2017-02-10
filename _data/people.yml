@@ -1,0 +1,321 @@
+
+- name: Alfredo
+  lastname: Ramón-Morte
+  position: Investigador Principal
+  organization: Universidad de Alicante
+  department: Dpto. de Análisis Geográfico Regional y Gª Física
+  pic: Alfredo_Ramon_Morte.png
+  keywords:
+    - sig
+    - ordenación del territorio
+    - geografía
+  email: 
+    - title: E-mail
+      url: alfredo.ramon@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Alfredo_Ramon_Morte
+      class: icon-home
+    - title: linkedin
+      url: https://es.linkedin.com/in/alfredo-ramon-3b44b232
+      class: icon-linkedin
+
+- name: Antonio
+  lastname: Belda-Antolí
+  position: Técnico especialista
+  organization: Universidad de Alicante
+  department: Dpto. de Ciencias de la Tierra y Medio Ambiente
+  pic: user_placeholder.png
+  keywords:
+    - ecología
+    - biología
+    - botánica
+    - micología
+  email: 
+    - title: E-mail
+      url: antonio.belda@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://scholar.google.es/citations?user=OZMpDVsAAAAJ&hl=es
+      class: icon-home
+
+- name: Antonio
+  lastname: Rico-Amorós
+  position: Catedrático de Universidad
+  organization: Universidad de Alicante
+  department: Instituto Interuniversitario de Geografía
+  pic: Antonio_Rico_Amoros.png
+  keywords:
+    - recursos hídricos
+    - riesgos naturales
+    - desarrollo regional
+    - geografía rural
+  email: 
+    - title: E-mail
+      url: am.rico@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Antonio_Amoros
+      class: icon-home
+
+- name: Ascensión
+  lastname: Padilla Blanco
+  position: Profesora Titular de Universidad
+  organization: Universidad de Alicante
+  department: Dpto. de Análisis Geográfico Regional y Gª Física
+  pic: Ascension_Padilla.png
+  keywords:
+    - geografía física
+    - biogeografía
+    - cartografía
+    - sig
+  email: 
+    - title: E-mail
+      url: ma.padilla@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Ascension_Padilla
+      class: icon-home
+
+- name: Benito M.
+  lastname: Zaragozí
+  position: Investigador Colaborador
+  organization: Universidad de Alicante
+  department: Instituto Universitario de Investigación Informática
+  pic: Benito_Zaragozi.jpeg
+  keywords:
+    - sig
+    - geodatabases
+    - data mining
+    - giscience
+  email: 
+    - title: E-mail
+      url: benito.zaragozi@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: http://benito-zaragozi.com
+      class: icon-home
+    - title: linkedin
+      url: https://es.linkedin.com/in/benito-m-zaragozí-295b6940
+      class: icon-linkedin
+    - title: github
+      url: https://github.com/benizar
+      class: icon-github
+
+- name: Gabino
+  lastname: Ponce Herrero
+  position: Catedrático de Universidad
+  organization: Universidad de Alicante
+  department:  Dpto. de Geografía Humana
+  pic: Gabino_Ponce_Herrero.jpeg
+  keywords:
+    - urbanismo
+    - ordenación del territorio
+    - población
+    - desarrollo regional
+  email: 
+    - title: E-mail
+      url: ponce@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://dialnet.unirioja.es/servlet/autor?codigo=172501
+      class: icon-home
+
+- name: José Ramón
+  lastname: Valero Escandell
+  position: Profesor Titular de Universidad
+  organization: Universidad de Alicante
+  department: Dpto. de Geografía Humana
+  pic: Jose_Ramon_Valero.jpeg
+  keywords:
+    - geografía urbana
+    - demografía
+    - migraciones
+    - geografía histórica
+  email: 
+    - title: E-mail
+      url: jose.valero@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://scholar.google.com/citations?user=qQep3VEAAAAJ
+      class: icon-home
+
+- name: Juan Antonio
+  lastname: Marco Molina
+  position: Catedrático de Universidad
+  organization: Universidad de Alicante
+  department: Dpto. de Análisis Geográfico Regional y Gª Física
+  pic: Juan_Marco_Molina.png
+  keywords:
+    - geografía física
+    - geomorfología
+    - biogeografía
+  email: 
+    - title: E-mail
+      url: ja.marco@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Juan_Marco_Molina
+      class: icon-home
+
+- name: Pablo
+  lastname: Giménez Font
+  position: Profesor Titular de Universidad
+  organization: Universidad de Alicante
+  department: Dpto. de Análisis Geográfico Regional y Gª Física
+  pic: Pablo_Font2.png
+  keywords:
+    - geomorfología
+    - biogeografía
+    - usos del suelo
+    - geografía histórica
+  email: 
+    - title: E-mail
+      url: p.gimenezfont@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Pablo_Font2
+      class: icon-home
+
+- name: Pepe
+  lastname: Torres Prieto
+  position: Técnico Informático
+  organization: Universidad de Alicante
+  department:  Instituto Interuniversitario de Geografía
+  pic: user_placeholder.png
+  keywords:
+    - desarrollo web
+    - programación
+    - bases de datos
+    - administracion de sistemas
+  email: 
+    - title: E-mail
+      url: pepe.torres@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://torrespri.github.io/
+      class: icon-home
+          
+- name: Alejandro
+  lastname: Rabasa Dolado
+  position: Profesor Contratado Doctor
+  organization: Universidad Miguel Hernández
+  department: Dpto. de Estadística, Matemáticas e Informática
+  pic: alejandro_rabasa_dolado.jpeg
+  keywords:
+    - data mining
+    - reglas de clasificación
+    - algoritmos
+  email: 
+    - title: E-mail
+      url: a.rabasa@umh.es
+      class: icon-mail
+  social:
+    - title: home
+      url: http://cio.umh.es/investigacion/investigadores/arabasa
+      class: icon-home
+
+- name: Jesús Javier
+  lastname: Rodríguez Sala
+  position: Profesor colaborador
+  organization: Universidad Miguel Hernández
+  department: Dpto. de Estadística, Matemáticas e Informática
+  pic: jesus_javier_rodriguez_sala.jpg
+  keywords:
+    - data mining
+    - reglas de clasificación
+    - algoritmos
+  email: 
+    - title: E-mail
+      url: jesuja.rodriguez@umh.es
+      class: icon-mail
+  social:
+    - title: home
+      url: http://cio.umh.es/investigacion/investigadores/jesujarodriguez
+      class: icon-home
+    - title: linkedin
+      url: https://es.linkedin.com/in/jes%C3%BAs-javier-rodr%C3%ADguez-sala-b196754b
+      class: icon-linkedin
+
+- name: Enrique
+  lastname: Montón Chiva
+  position: Catedrático de Universidad
+  organization: Universidad Jaime I
+  department: Dpto. de Historia, Geografía y Arte
+  pic: user_placeholder.png
+  keywords:
+    - climatología
+    - geografía urbana
+    - teledetección
+    - sensores
+  email: 
+    - title: E-mail
+      url: montonie@uji.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Enrique_Monton
+      class: icon-home
+
+- name: Maria Elena
+  lastname: Caballero García
+  position: Jefa de sección
+  organization: Instituto Geográfico Nacional
+  department: Servicio de Ocupación del Suelo
+  pic: user_placeholder.png
+  keywords:
+    - feature extraction
+    - classification
+    - decision trees
+  email: 
+    - title: E-mail
+      url: mecaballero@fomento.es
+      class: icon-mail
+      social:
+- name: Julián
+  lastname: Delgado Hernández
+  position: Jefe de servicio
+  organization: Instituto Geográfico Nacional
+  department: Servicio de Ocupación del Suelo
+  pic: Julian_Delgado_Hernandez.png
+  keywords:
+    - feature extraction
+    - classification
+    - decision trees
+  email: 
+    - title: E-mail
+      url: jdhernandez@fomento.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Julian_Delgado_Hernandez
+      class: icon-home
+- name: Nuria
+  lastname: Valcárcel
+  position: Jefa de área
+  organization: Instituto Geográfico Nacional
+  department: Servicio de Ocupación del Suelo
+  pic: Nuria_Valcarcel.png
+  keywords:
+    - spatial analysis
+    - remote sensing
+    - mapping
+  email: 
+    - title: E-mail
+      url: nvalcarcel@fomento.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Nuria_Valcarcel
+      class: icon-home
+

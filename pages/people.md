@@ -18,43 +18,31 @@ header:
     caption_url: https://unsplash.com/
 ---
 
-<div data-magellan-expedition>  
-<dl class="sub-nav" title="Ver participantes">
-<dt>Participan: </dt>
 
-{% for org_hash in site.data.orgs %}
-{% assign org = org_hash[1] %}
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
 
-{% if org.shortname == "UA" %}
-    <dd data-magellan-arrival="{{ org.shortname }}" class=""><a href="#{{ org.shortname }}">{{ org.name }}
-{% else %}
-    <dd data-magellan-arrival="{{ org.shortname }}" class=""><a href="#{{ org.shortname }}">{{ org.name }}
-{% endif %}
+{% for member in site.data.people %}
 
 
-</a></dd>
-
-{% endfor %}
-
-</dl>
-
-</div>
-
-{% for org_hash in site.data.orgs %}
-{% assign org = org_hash[1] %}
-
-<div id="{{ org.shortname }}">
-
-<h2 data-magellan-destination="{{ org.shortname }}"><a name="{{ org.shortname }}"></a>{{ org.name }}</h2>
-
-
-<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5">
-
-
-{% for member in org.members %}
 
 <li>
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+<h5>
+{% if member.name %}
+	{{ member.name }}<br>
+{% endif %}
+
+{% if member.lastname %}
+	{{ member.lastname }}
+{% endif %}
+</h5>
+
+
+
 
 <!-- click on image will navigate to the personal website -->
 <a class="th" href="{{ member.social.first.url }}">
@@ -74,9 +62,8 @@ header:
 </ul><!-- /.inline-list -->
 
 
-
-{% if member.name %}
-	<h4>{{ member.name }}</h4>
+{% if member.organization %}
+	<strong>{{ member.organization }}</strong><br/>
 {% endif %}
 
 {% if member.department %}
@@ -91,16 +78,12 @@ header:
 {% endfor %}
 </ul>
 
+
+
+</div> <!-- http://schema.org/Person -->
+
 </li>
 
 
-
-
-
-{% endfor %}
-
-</ul>
-
-</div>
 
 {% endfor %}
