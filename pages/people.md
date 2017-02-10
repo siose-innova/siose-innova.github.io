@@ -20,7 +20,7 @@ header:
 
 <div data-magellan-expedition>  
 <dl class="sub-nav" title="Ver participantes">
-<dt>Participan:</dt>
+<dt>Participan: </dt>
 
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
@@ -58,7 +58,7 @@ header:
 
 <!-- click on image will navigate to the personal website -->
 <a class="th" href="{{ member.social.first.url }}">
-<img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}" style="padding:20px">
+<img src="{{ member.pic  | prepend: "/images/people/" | prepend: base_path }}" alt="{{ member.name }}" style="padding:10px">
 </a>
 
 

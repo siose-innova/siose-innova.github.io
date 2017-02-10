@@ -16,7 +16,7 @@ members:
         class: icon-mail
         social:
   - name: Julián Delgado Hernández
-    pic: user_placeholder.png
+    pic: Julian_Delgado_Hernandez.png
     position: Jefe de servicio
     department: Servicio de Ocupación del Suelo
     keywords:
@@ -32,7 +32,7 @@ members:
         url: https://www.researchgate.net/profile/Julian_Delgado_Hernandez
         class: icon-home
   - name: Nuria Valcárcel
-    pic: user_placeholder.png
+    pic: Nuria_Valcarcel.png
     position: Jefa de área
     department: Servicio de Ocupación del Suelo
     keywords:
