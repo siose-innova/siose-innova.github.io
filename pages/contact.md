@@ -8,7 +8,8 @@ subheadline: "Contactar"
 teaser: ""
 
 header:
-    image_fullwidth: /headers/almond-1287798_1920.jpg
+    image_fullwidth: /headers/ua.jpg
+    caption: La Universidad de Alicante vista desde el Aulario II
 ---
 
 

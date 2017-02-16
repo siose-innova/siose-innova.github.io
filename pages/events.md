@@ -7,9 +7,8 @@ subheadline: "Eventos"
 teaser: "ATENCIÓN. Esta página está en construcción."
 
 header:
-    image_fullwidth: /headers/almond-1287798_1920.jpg
-    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
-    caption_url: https://unsplash.com/
+    image_fullwidth: /headers/montgo_bancals_23_04_07.jpg
+    caption: Bancales abandonados en el Parque natural del Macizo del Montgó (Provincia de Alicante).
 ---
 
 

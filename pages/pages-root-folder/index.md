@@ -8,12 +8,7 @@ permalink: /index.html
 
 layout: frontpage
 header:
-#    title: SIOSE-INNOVA
-#    background-color: "#EFC94C;"
-#    pattern: pattern_concrete.jpg
     image_fullwidth: /headers/almond-1287798_1920.jpg
-    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
-    caption_url: https://unsplash.com/
 
 quote:
   title: "PROBLEMA."

@@ -88,7 +88,7 @@
   department: Instituto Universitario de Investigación Informática
   pic: Benito_Zaragozi.jpeg
   keywords:
-    - sig
+    - gis
     - geodatabases
     - data mining
     - giscience
@@ -183,7 +183,7 @@
       class: icon-mail
   social:
     - title: home
-      url: https://www.researchgate.net/profile/Pablo_Font2
+      url: https://personal.ua.es/es/pablo-gimenez/publicaciones/publicaciones.html
       class: icon-home
 
 - name: Pepe
