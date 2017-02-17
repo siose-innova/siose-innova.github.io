@@ -319,3 +319,26 @@
       url: https://www.researchgate.net/profile/Nuria_Valcarcel
       class: icon-home
 
+- name: Miguel
+  lastname: Fernández Moreno
+  position: Técnico colaborador
+  organization: Universidad de Alicante
+  department:  Instituto Interuniversitario de Geografía
+  pic: mfernam.jpg
+  keywords:
+    - gis
+    - cartografía
+    - desarrollo web
+    - programación
+    - bases de datos
+  email: 
+    - title: E-mail
+      url: miguel.fernández@ua.es
+      class: icon-mail
+  social:
+    - title: linkedin
+      url: https://es.linkedin.com/in/mfernam
+      class: icon-linkedin
+    - title: github
+      url: https://github.com/mfernam
+      class: icon-github
