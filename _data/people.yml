@@ -346,4 +346,27 @@
     - title: home
       url: https://torrespri.github.io/
       class: icon-home
-          
+
+- name: José Tomás
+  lastname: Navarro Carrión
+  position: Técnico Sistemas de Información Geográfica
+  organization: Universidad de Alicante
+  department:  Instituto Interuniversitario de Geografía
+  pic: Jose_Tomas_Navarro.png
+  keywords:
+    - bases de datos geográficas
+    - modelos de datos
+    - diseño de APIs
+    - programación orientada a objetos
+
+  email: 
+    - title: E-mail
+      url: jt.navarro@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://www.researchgate.net/profile/Jt_Navarro
+      class: icon-home
+    - title: github
+      url: https://github.com/quommit
+      class: icon-github      
