@@ -186,26 +186,7 @@
       url: https://personal.ua.es/es/pablo-gimenez/publicaciones/publicaciones.html
       class: icon-home
 
-- name: Pepe
-  lastname: Torres Prieto
-  position: Técnico Informático
-  organization: Universidad de Alicante
-  department:  Instituto Interuniversitario de Geografía
-  pic: user_placeholder.png
-  keywords:
-    - desarrollo web
-    - programación
-    - bases de datos
-    - administracion de sistemas
-  email: 
-    - title: E-mail
-      url: pepe.torres@ua.es
-      class: icon-mail
-  social:
-    - title: home
-      url: https://torrespri.github.io/
-      class: icon-home
-          
+
 - name: Alejandro
   lastname: Rabasa Dolado
   position: Profesor Contratado Doctor
@@ -342,3 +323,24 @@
     - title: github
       url: https://github.com/mfernam
       class: icon-github
+
+- name: Pepe
+  lastname: Torres Prieto
+  position: Técnico Informático
+  organization: Universidad de Alicante
+  department:  Instituto Interuniversitario de Geografía
+  pic: torrespri.jpg
+  keywords:
+    - desarrollo web
+    - programación
+    - bases de datos
+    - administracion de sistemas
+  email: 
+    - title: E-mail
+      url: pepe.torres@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://torrespri.github.io/
+      class: icon-home
+          
