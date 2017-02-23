@@ -22,7 +22,6 @@ header:
     caption_url: https://unsplash.com/
 ---
 
-
 ## Desarrollo de la web
 
 Esta página web ha sido desarrollada utilizando [Jekyll](https://jekyllrb.com/) y está basada en el tema [Feeling Responsive](https://phlow.github.io/feeling-responsive/). Además, el sitio web se publica desde [GitHub Pages](https://pages.github.com/). El uso software libre y la gestión *descentralizada* de cada proyecto son parte del día a día en el Proyecto SIOSE-INNOVA. El desarrollo de la página web con estas tecnologías es en sí una declaración de intenciones.

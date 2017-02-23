@@ -1,0 +1,18 @@
+FROM ruby:latest
+MAINTAINER benizar@gmail.com
+
+# Set the locale
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
+
+RUN apt-get update
+RUN apt-get install -y tmux nano git
+
+RUN gem install tmuxinator
+ENV EDITOR "nano"
+
+# Inject development configuration
+ADD workspace.yml /root/.tmuxinator/workspace.yml
+
+ENTRYPOINT ["tmuxinator"]
+CMD ["start", "workspace"]
