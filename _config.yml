@@ -67,6 +67,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - workspace/
 
 
 # The language setting is used in /includes/header.html for html-settings

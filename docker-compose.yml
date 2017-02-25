@@ -1,27 +1,28 @@
 #
-# Jekyll build without --drafts for deploying on github
 # This one is our development environment
 #
 version: '2'
 services:
 
-  worker:
+  jekyll:
     # comment on build if want to use the dockerhub build
     build:
-      context: ./provision
-      dockerfile: Dockerfile-worker
-    image: benizar/worker
-    container_name: benizar_worker
+      context: ./workspace
+      dockerfile: Dockerfile.jekyll
+    image: benizar/jekyll
+    container_name: benizar_jekyll
+    # keep jekyll awaiting for instructions
     ports:
         - 4000:4000
     volumes:
-      - .:/srv/jekyll
+      - .:/home
+      - /usr/local/bin/
 
   workspace:
     # comment on build if want to use the dockerhub build
     build:
-      context: ./provision
-      dockerfile: Dockerfile-workspace
+      context: ./workspace
+      dockerfile: Dockerfile.tmux
     image: benizar/workspace
     container_name: benizar_workspace
     # Make docker client available within the container
@@ -29,6 +30,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/bin/docker:/usr/bin/docker
     volumes_from:
-      - worker
+      - jekyll
     stdin_open: true
     tty: true
+
