@@ -67,7 +67,8 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
-    - workspace/
+    - workspace.yml
+    - docker-compose.yml
 
 
 # The language setting is used in /includes/header.html for html-settings

@@ -1,36 +1,46 @@
-#
-# This one is our development environment
-#
 version: '2'
 services:
+  #
+  # [ server stack ]
+  #
+  # - jekyll
+  # - tmuxinator
+  #
 
   jekyll:
-    # comment on build if want to use the dockerhub build
-    build:
-      context: ./workspace
-      dockerfile: Dockerfile.jekyll
-    image: benizar/jekyll
+    image: benizar/jekyll:latest
     container_name: benizar_jekyll
-    # keep jekyll awaiting for instructions
+    # Jekyll waits for tmux instructions
+    entrypoint: tail -f /dev/null
     ports:
         - 4000:4000
     volumes:
-      - .:/home
-      - /usr/local/bin/
+      - .:/home # Your sources will be in the container's home
+      - /usr/local/bin/ # Our jbh.sh version is available here. Use it for editing, previewing and deploying your website.
+    networks:
+      - front
 
-  workspace:
-    # comment on build if want to use the dockerhub build
-    build:
-      context: ./workspace
-      dockerfile: Dockerfile.tmux
-    image: benizar/workspace
+  tmuxinator:
+    image: benizar/tmuxinator:latest
     container_name: benizar_workspace
-    # Make docker client available within the container
+    entrypoint: tmuxinator start workspace
     volumes:
+    # Make docker client available within the container
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/bin/docker:/usr/bin/docker
+    # Get the tmuxinator workspace instead of the sample default
+      - $PWD/workspace.yml:/root/.tmuxinator/workspace.yml
     volumes_from:
       - jekyll
     stdin_open: true
     tty: true
+    networks:
+      - front
 
+
+#
+# [ networks definition ]
+#
+networks:  
+  front:
+    driver: bridge
