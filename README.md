@@ -1,23 +1,28 @@
-# Web del proyecto SIOSE-INNOVA (CSO2016-79420-R)
+# Workflow
 
-## Workspace (docker-compose, tmuxinator, jekyll)
+## Prerrequisites
 
-Build the image and run a container in detached mode:
+This workflow has been tested for the Docker version 1.12.6, build 78d1802 in Ubuntu 16.10. Everything else is configured to work in docker containers.
+
+## Setup docker stack
+
+Pull the images and run in detached mode:
  
 ```bash
-docker-compose build
 docker-compose up -d
 ```
 
-Attatch to that container:
+Attatch to the workspace container (tmux):
 
 ```bash
 docker attach benizar_workspace
 ```
 
-
-Once finished stop the container and free port 4000:
+Once finished, stop the container and remove all volumes:
 
 ```bash
-docker-compose down
+docker-compose down -v
 ```
+
+## Jekyll blogging
+
