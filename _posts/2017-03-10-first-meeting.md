@@ -12,7 +12,7 @@ tags:
   - presentación
   - proyecto
 
-iframe: "<iframe width='970' height='546' src='<a href="http://vertice.cpd.ua.es/176205?player=dash">Watch video!<script>var w=window,d=document,e;w._fpes||(w._fpes=[],w.addEventListener("load",function(){var s=d.createElement("script");s.src="//embed.flowplayer.org/6.0.3/embed.min.js",d.body.appendChild(s)})),e=[].slice.call(d.getElementsByTagName("script"),-1)[0].parentNode,w._fpes.push({e:e,l:"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayer.min.js",c:{"ratio":0.5625,"rtmp":"rtmp://matt.cpd.ua.es/vod","live":false,"origin":"http://vertice.cpd.ua.es/176205?player=dash","key":"$424289779008682","swf":"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayer.swf","swfHls":"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayerhls.swf","embed":{"library":"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayer.min.js","script":"//vertice.cpd.ua.es/flowplayer/6.0.3/embed.min.js","skin":"//vertice.cpd.ua.es/flowplayer/6.0.3/skin/playful.css","swf":"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayer.swf","swfHls":"//vertice.cpd.ua.es/flowplayer/6.0.3/flowplayerhls.swf"},"adaptiveRatio":false,"logo":"http://vertice.cpd.ua.es/cw/img/logo-ua-fp.gif","clip":{"subtitles":[],"sources":[{"src":"https://matt.cpd.ua.es/vod/_definst_/mp4:vertice/176205.mp4/manifest.mpd","suffix":"mpd","type":"application/dash+xml"}]}}});</script></a>' frameborder='0' allowfullscreen></iframe>"
+iframe: "<iframe width='970' height='546' src='http://vertice.cpd.ua.es/176205?player=dash' frameborder='0' allowfullscreen></iframe>"
 #
 # These video settings are totally optional. It's only purpose
 # is SEO, so that videos show up in Google hopefully with a 
