@@ -4,43 +4,14 @@ services:
   # [ server stack ]
   #
   # - jekyll
-  # - tmuxinator
   #
 
   jekyll:
     image: benizar/jekyll:latest
     container_name: benizar_jekyll
     # Jekyll waits for tmux instructions
-    entrypoint: tail -f /dev/null
+    entrypoint: bundle exec jekyll serve  --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --incremental
     ports:
         - 4000:4000
     volumes:
       - .:/home # Your sources will be in the container's home
-      - /usr/local/bin/ # Our jbh.sh version is available here. Use it for editing, previewing and deploying your website.
-    networks:
-      - front
-
-  tmuxinator:
-    image: benizar/tmuxinator:latest
-    container_name: benizar_workspace
-    entrypoint: tmuxinator start workspace
-    volumes:
-    # Make docker client available within the container
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /usr/bin/docker:/usr/bin/docker
-    # Get the tmuxinator workspace instead of the sample default
-      - $PWD/workspace.yml:/root/.tmuxinator/workspace.yml
-    volumes_from:
-      - jekyll
-    stdin_open: true
-    tty: true
-    networks:
-      - front
-
-
-#
-# [ networks definition ]
-#
-networks:  
-  front:
-    driver: bridge
