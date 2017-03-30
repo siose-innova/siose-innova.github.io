@@ -4,8 +4,8 @@ layout: page
 author: benizar
 title: "Presentación de la nueva página web"
 metatitle: "Post"
-subheadline: "Sobre el sitio web"
-teaser: "Durante el último mes, hemos trabajado para desarrollar este nuevo sitio web que facilitará descubrir toda la información relacionada con el proyecto SIOSE-INNOVA."
+subheadline: "Sitio web"
+teaser: "Durante el último mes, hemos creado este nuevo sitio web que facilitará el acceso toda la información relacionada con el proyecto SIOSE-INNOVA."
 
 categories:
   - noticias
