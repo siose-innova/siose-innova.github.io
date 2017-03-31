@@ -31,6 +31,13 @@
 - title: Eventos
   url: "/events/"
   side: right
+  dropdown:
+  - title: "Reuniones de proyecto"
+    url: "/events/meetings/"
+  - title: "Talleres organizados"
+    url: "/events/workshops/"
+  - title: "Congresos"
+    url: "/events/conferences/"
 
 - title: Blog
   url: "/blog/"
