@@ -18,7 +18,7 @@ header:
 <div class="small-12 large-4 columns">
 
 <h4>E-mail:</h4>
-<a href="mailto: labsig.iug@ua.es?subject=SIOSE-INNOVA" title="labsig.iug@ua.es">labsig.iug@ua.es</a>
+<a href="mailto: siose-innova@ua.es?subject=SIOSE-INNOVA" title="siose-innova@ua.es">siose-innova@ua.es</a>
 
 <h4>Teléfono:</h4>
 +34 96 590 3945
