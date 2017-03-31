@@ -2,7 +2,7 @@
 permalink: "/contact/"
 
 layout: page-fullwidth
-title: "Contacte con nosotros"
+title: "Información de contacto"
 meta_title: "Contactar"
 subheadline: "Contactar"
 teaser: ""
