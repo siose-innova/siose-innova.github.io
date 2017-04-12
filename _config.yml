@@ -56,7 +56,10 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: rouge
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - "jekyll/scholar"
+
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
@@ -240,3 +243,21 @@ sass:
 # used in _includes/footer_scripts
 
 # tawkto_embed_uri:
+
+
+
+scholar:
+  style: _bibliography/my-apa-cv-no-access.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: _bibliography
+  repository: pdf
+  bibliography: references
+  bibliography_template: bibliography
+
+  replace_strings: true
+
+  query: "@*"
