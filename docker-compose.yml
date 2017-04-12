@@ -1,17 +1,13 @@
 version: '2'
 services:
-  #
-  # [ server stack ]
-  #
-  # - jekyll
-  #
 
   jekyll:
-    image: benizar/jekyll:latest
-    container_name: benizar_jekyll
-    # Jekyll waits for tmux instructions
-    entrypoint: bundle exec jekyll serve  --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --incremental
+
+    image: benizar/jekyll
+    container_name: siose_jekyll
     ports:
-        - 4000:4000
+      - 4000:4000
     volumes:
       - .:/home # Your sources will be in the container's home
+
+    command: jekyll serve --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --incremental --drafts
