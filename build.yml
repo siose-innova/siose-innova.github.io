@@ -1,0 +1,15 @@
+#
+# Jekyll build for deploying to gh-pages (called from deploy.sh)
+#
+version: '2'
+services:
+
+  jekyll:
+    image: benizar/jekyll
+    container_name: benizar_jekyll
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/home # Your sources will be in the container's home
+
+    command: bundle exec jekyll build
