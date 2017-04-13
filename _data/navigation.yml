@@ -27,6 +27,15 @@
 - title: Publicaciones
   url: "/publications/"
   side: right
+  dropdown:
+  - title: "SIOSE-INNOVA"
+    url: "/publications/"
+  - title: "SIOSE"
+    url: "/publications/siose/"
+  - title: "Casos de estudio"
+    url: "/publications/applications/"
+  - title: "Tecnologías"
+    url: "/publications/technologies/"
 
 - title: Eventos
   url: "/events/"

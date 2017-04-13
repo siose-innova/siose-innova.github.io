@@ -247,17 +247,12 @@ sass:
 
 
 scholar:
-  style: _bibliography/my-apa-cv-no-access.csl
-  locale: en
-
-  sort_by: year
-  order: descending
+  style: apa
+  locale: es
 
   source: _bibliography
   repository: pdf
-  bibliography: references
+  bibliography: background
   bibliography_template: bibliography
 
   replace_strings: true
-
-  query: "@*"
