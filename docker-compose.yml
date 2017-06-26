@@ -10,4 +10,4 @@ services:
     volumes:
       - .:/home # Your sources will be in the container's home
 
-    command: jekyll serve --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --incremental --drafts
+    command: jekyll serve --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --incremental
