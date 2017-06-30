@@ -370,3 +370,29 @@
     - title: github
       url: https://github.com/quommit
       class: icon-github      
+
+- name: José Manuel
+  lastname: Mira Martínez
+  position: Técnico Sistemas de Información Geográfica
+  organization: Universidad de Alicante
+  department:  Instituto Interuniversitario de Geografía
+  pic: jose_mira.jpg
+  keywords:
+    - bases de datos geográficas
+    - cartografía
+    - gis
+
+  email: 
+    - title: E-mail
+      url: jt.navarro@ua.es
+      class: icon-mail
+  social:
+    - title: home
+      url: https://cvnet.cpd.ua.es/Directorio/Home/FichaPersona/66969?depende=B173
+      class: icon-home
+    - title: linkedin
+      url: https://es.linkedin.com/in/jos%C3%A9-manuel-mira-mart%C3%ADnez-684bb732
+      class: icon-linkedin
+    - title: github
+      url: https://github.com/josemamira
+      class: icon-github      
