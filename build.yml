@@ -10,6 +10,6 @@ services:
     ports:
       - 4000:4000
     volumes:
-      - .:/home # Your sources will be in the container's home
+      - .:/source # Your sources will be in the container's home
 
     command: bundle exec jekyll build
