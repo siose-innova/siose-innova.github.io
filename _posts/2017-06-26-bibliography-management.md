@@ -19,7 +19,7 @@ header:
 #    title: SIOSE-INNOVA
 #    background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
-    image_fullwidth: /headers/biblioteca.jpg
+    image_fullwidth: /headers/ua.jpg
 #    caption: Pie de la imagen con link. Las imágenes saldrán del siose, vuelos, históricos, etc
 #    caption_url: https://unsplash.com/
 
@@ -29,9 +29,14 @@ header:
 
 La gestión de las referencias bibliográficas es una cuestión de gran importancia cuando se manejan una cantidad importante de documentos. Esto resulta evidente para cualquier profesional del mundo académico e investigador y es aún más cierto cuando es necesario trabajar en equipo.
 
-La gestión de la bibliografía consiste en una serie de tareas repetitivas que pueden ser facilmente automatizadas, por lo que han ido apareciendo numerosos programas informáticos y plataformas para realizar estas tareas. Existen muchas opciones que dependen de los objetivos y necesidades de cada flujo de trabajo, por lo que es difícil decantarse por una solución por encima de las demás. 
+La gestión de la bibliografía consiste en una serie de tareas repetitivas que pueden ser fácilmente automatizadas, por lo que han ido apareciendo numerosos programas informáticos y plataformas para realizar estas tareas. Existen muchas opciones que dependen de los objetivos y necesidades de cada flujo de trabajo, por lo que es difícil decantarse por una solución por encima de las demás. 
 
-> Podría decirse que, frente a no utilizar ningún software para este cometido, comenzar a utilizar cualquiera sería un acierto. 
+> Podría decirse que, frente a no utilizar ningún software para este cometido, comenzar a utilizar cualquiera sería un acierto.
+
+<figure>
+	<img src="{{ site.urlimg }}/meetings/mendeley-benito.jpg"  alt="Benito Zaragozí (UA) durante el desarrollo del taller" itemprop="image">
+	<figcaption class="text-left">Benito Zaragozí, ayer, impartiendo el taller sobre Mendeley que tuvo lugar en el Aula de Geomática de la Universidad de Alicante</figcaption>
+</figure>
 
 Resulta sencillo encontrar comparativas de algunos de estos programas, pero la más completa se encuentra en esta [entrada de la Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software#Word_processor_integration). Los aspectos valorados en esta comparativa son los siguientes:
 
@@ -50,6 +55,7 @@ Una vez repasadas las distintas características de interés, [Mendeley](https:/
 
 > Mendeley es gratuito, permite crear grupos para colaborar, trabajar on-line y off-line, proporciona más de 6000 formatos de citas (CSL), se integra con varios procesadores de texto y está conectado con las principales bases de datos de referencias bibliográficas.
 
+
 ## Mendeley vs Refworks
 
 En la Universidad de Alicante contamos con una licencia institucional de ambas plataformas: Mendeley, aunque con mayores capacidades de almacenamiento que con la versión libre y [Refworks](https://www.refworks.com/es/)/[Proquest](https://refworks.proquest.com/). Sin embargo, en el proyecto SIOSE-INNOVA participan investigadores de distintas organizaciones que podrían no tener licencia de ningún tipo, por lo que sería más interesante utilizar un software que de una opción gratuita.
@@ -58,24 +64,22 @@ Por otro lado, cabe preguntarse: [¿Qué sucede cuando nos quedamos sin licencia
 
 Otro aspecto no menos importante que debemos valorar es la necesidad de trabajar con **formatos basados en estándares libres**. Según el [Esquema Nacional de Interoperabilidad](https://administracionelectronica.gob.es/es/ctt/eni#.WVBInO1LzBe) y las [Normas Técnicas de Interoperabilidad](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#.WVBI3-1LzBe), las administraciones públicas deberían utilizar formatos abiertos en vez de propietarios. Los formatos indicados se encuentran publicados en la [Resolución  de  3  de  octubre  de  2012,  de  la Secretaría de Estado de Administraciones  Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares.](https://www.boe.es/boe/dias/2012/10/31/pdfs/BOE-A-2012-13501.pdf) y exluyen formatos propietarios como los de Microsoft Office que integra Refworks. En cambio Mendeley cuenta con un plugin que funciona en LibreOffice, por lo que sería una buena alternativa para cumplir con la legalidad en la documentación del proyecto.
 
-Finalmente, se podría argumentar que la exportación a PDF sería suficiente para cumplir con la Ley, pero resulta que no todos los documentos en formato PDF serían estándares. Resulta interesante leer [este artículo sobre el tema](http://www.eldiario.es/turing/software_libre/estandar-documentos-Administraciones-Publicas-Espana_0_311469935.html).
+Finalmente, se podría argumentar que la exportación a PDF sería suficiente para cumplir con la Ley, pero resulta que no todos los documentos en formato PDF seguirían el estándar del mismo modo. Resulta interesante leer [este artículo sobre el tema](http://www.eldiario.es/turing/software_libre/estandar-documentos-Administraciones-Publicas-Espana_0_311469935.html).
 
 ## Una introducción a Mendeley
 
-Mendeley cuenta con numerosos recursos y tutoriales para aprender a utilizar la plataforma. Sin embargo, esta presentación es breve y sigue el órden que se verá en este taller del proyecto.
+Mendeley cuenta con numerosos recursos y tutoriales para aprender a utilizar la plataforma. Sin embargo, esta presentación es breve y sigue el orden que se verá en este taller del proyecto.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/lmDrr1xkCAyf3Y" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AhmadRb/introduction-tomendeley-presentation2014" title="Introduction to-mendeley presentation-2014" target="_blank">Introduction to-mendeley presentation-2014</a> </strong> de <strong><a target="_blank" href="https://www.slideshare.net/AhmadRb">Ir. Dr. R.Badlishah Ahmad</a></strong> </div>
 
 
 ## Ejercicios y trabajo en equipo
 
-Durante esta sesión se creará un perfil en Mendeley, se instalará Mendeley Desktop y se añadirá a todos los asistentes al grupo del proyecto. **Una vez conseguido esto se espera que cada asistente:**
+Durante esta sesión, los asistentes se crearon un perfil en Mendeley, instalaron Mendeley Desktop y tuvieron oportunidad de compartir documentos en el grupo del proyecto. **Una terminada la sesión de la tarde se espera que cada asistente sea capaz de:**
 
-1. Añada por lo menos una referencia propia a su Mendeley local
-2. Organize sus documentos locales
-3. Añada al menos una referencia al grupo SIOSE-INNOVA
-4. Cite las referencias en un documento de texto. Puede ser útil consultar [el tutorial sobre los plugins de Mendeley](https://www.mendeley.com/guides/using-citation-editor).
+1. Añadir referencias a su Mendeley local
+2. Organizar sus documentos locales
+3. Compartir referencias con el grupo SIOSE-INNOVA
+4. Citar las referencias en un documento de texto de LibreOffice. Puede ser útil consultar [el tutorial sobre los plugins de Mendeley](https://www.mendeley.com/guides/using-citation-editor).
 
-Finalmente, con todo lo aprendido se dedicará un tiempo a definir como se gestionará el trabajo en los proyectos relacionados con el SIOSE-INNOVA y a añadir todas las referencias que dé tiempo.
-
-
+Finalmente, con todo lo aprendido se dedicó un tiempo a definir como se gestionará el trabajo en los proyectos relacionados con el SIOSE-INNOVA y a añadir todas las referencias que dé tiempo.
