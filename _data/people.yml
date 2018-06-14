@@ -83,8 +83,8 @@
 
 - name: Benito M.
   lastname: Zaragozí
-  position: Investigador Colaborador
-  organization: Universidad de Alicante
+  position: Profesor Lector
+  organization: Universitat Rovira i Virgili
   department: Instituto Universitario de Investigación Informática
   pic: Benito_Zaragozi.jpeg
   keywords:
@@ -94,7 +94,7 @@
     - giscience
   email: 
     - title: E-mail
-      url: benito.zaragozi@ua.es
+      url: benito.zaragozi@urv.cat
       class: icon-mail
   social:
     - title: home
@@ -288,7 +288,7 @@
   position: Investigador
   organization: Instituto Geográfico Nacional
   department: Servicio de Ocupación del Suelo
-  pic: user_placeholder.png
+  pic: enrique-lopez.jpeg
   keywords:
     - gis
     - landuse
