@@ -1,0 +1,15 @@
+#
+# Jekyll build for deploying to gh-pages (called from deploy.sh)
+#
+version: '2'
+services:
+  alpine-bash:
+    image: benizar/alpine-bash
+    container_name: benizar_alpine-bash
+    working_dir: /source
+    logging:
+      driver: "none"
+    volumes:
+      - ..:/source # Your sources will be here
+    entrypoint: /bin/ash
+    command: -c 'rm -rf _site'

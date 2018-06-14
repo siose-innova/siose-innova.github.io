@@ -1,0 +1,16 @@
+#
+# Jekyll serve with --drafts for developing
+#
+version: '2'
+services:
+
+  jekyll:
+    image: benizar/jekyll #Image from Dockerhub
+    container_name: benizar_jekyll
+    logging:
+      driver: "none"
+    ports:
+      - 4000:4000
+    volumes:
+      - ..:/source # Your sources will be here
+    command: bundle exec jekyll serve --watch --incremental --drafts

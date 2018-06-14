@@ -263,6 +263,7 @@
       url: mecaballero@fomento.es
       class: icon-mail
       social:
+
 - name: Julián
   lastname: Delgado Hernández
   position: Jefe de servicio
@@ -281,6 +282,28 @@
     - title: home
       url: https://www.researchgate.net/profile/Julian_Delgado_Hernandez
       class: icon-home
+
+- name: Enrique
+  lastname: López Rodríguez
+  position: Investigador
+  organization: Instituto Geográfico Nacional
+  department: Servicio de Ocupación del Suelo
+  pic: user_placeholder.png
+  keywords:
+    - gis
+    - landuse
+    - natural risks
+    - rural development
+  email: 
+    - title: E-mail
+      url: enlopezrodriguez@gmail.com
+      class: icon-mail
+  social:
+    - title: home
+      url: linkedin.com/in/enrique-lópez-rodríguez-73211186
+      class: icon-home
+
+
 - name: Nuria
   lastname: Valcárcel-Sanz
   position: Jefa de área

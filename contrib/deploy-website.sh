@@ -18,17 +18,17 @@ tmp_dir="temp_$last_SHA"
 git checkout $SOURCE > /dev/null 2>&1
 
 # Jekyll build to create _site, then down docker-compose
-docker-compose -f build.yml up > /dev/null 2>&1
+docker-compose -f contrib/jekyll-build.yml up > /dev/null 2>&1
 if [ $? = 0 ]; then
 
   # Avoid privilege problems
   sudo chmod -R 777 _site
   sudo rm Gemfile.lock
 
-  docker-compose -f build.yml down
+  docker-compose -f contrib/jekyll-build.yml down
   echo "Build successful"
 else
-  docker-compose -f build.yml down
+  docker-compose -f contrib/jekyll-build.yml down
   echo "Build failed"
   exit 1
 fi
