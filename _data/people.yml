@@ -299,9 +299,9 @@
       url: enlopezrodriguez@gmail.com
       class: icon-mail
   social:
-    - title: home
-      url: linkedin.com/in/enrique-lópez-rodríguez-73211186
-      class: icon-home
+    - title: linkedin
+      url: https://es.linkedin.com/in/enrique-lópez-rodríguez-73211186
+      class: icon-linkedin
 
 
 - name: Nuria
