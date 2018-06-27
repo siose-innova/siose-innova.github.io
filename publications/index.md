@@ -15,3 +15,11 @@ header:
 {% bibliography --file siose-innova --query @article %}
 
 
+## Comunicaciones a congresos
+
+{% bibliography --file siose-innova --query @inproceedings %}
+
+
+## Trabajos académicos
+
+{% bibliography --file siose-innova --query @phdthesis %}
