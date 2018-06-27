@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>SIOSE-INNOVA</title>
+		<description>El Proyecto SIOSE-INNOVA es un proyecto de investigación financiado por el Programa Estatal de Investigación, Desarrollo e Innovación Orientada a los Retos de la Sociedad...</description>
+		<link>https://siose-innova.github.io/</link>
+		<atom:link href="https://siose-innova.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Sesión sobre el SIOSE y su comunidad de usuarios</title>
+				<link>https://siose-innova.github.io/reuniones/siose-and-its-users-community/</link>
+				<pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+				<description>&lt;h2 id=&quot;contexto-actual-y-desarrollo-futuro-del-siose&quot;&gt;Contexto actual y desarrollo futuro del SIOSE&lt;/h2&gt;
+
+&lt;p&gt;El día 27 de junio a las 9:30 de la mañana, Nuria Valcárcel (IGN) nos hizo una magnifica presentación en la que explicó el origen y los primeros pasos del SIOSE, para que después pudieramos entender el contexto actual del SIOSE dentro del &lt;code class=&quot;highlighter-rouge&quot;&gt;Tsunami&lt;/code&gt; que representa el programa &lt;a href=&quot;http://www.copernicus.eu/&quot;&gt;Copernicus&lt;/a&gt;. Intentaremos compartir aquí las diapositivas de la presentación, pero lo realmente interesante fueron las impresiones de primera mano sobre todo lo que afecta a un proyecto de Información Geográfica como el SIOSE…&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://siose-innova.github.io/images//meetings/siose-nuria.jpg&quot; alt=&quot;Presentación de Nuria Valcárcel (IGN)&quot; itemprop=&quot;image&quot; /&gt;
+	&lt;figcaption class=&quot;text-left&quot;&gt;Nuria Valcárcel (IGN) ayer en su presentación en la Universidad de Alicante&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Después del almuerzo, Julián Delgado (IGN) nos explicó las propuestas que ahora mismo están fraguando para adaptar el SIOSE a ese contexto más europeo o global que trae consigo el programa &lt;a href=&quot;http://www.copernicus.eu/&quot;&gt;Copernicus&lt;/a&gt;. Cambios y mejoras en el modelo de datos, aumento de resolución, entre otras ideas, con unas buenas explicaciones de los motivos que los hacen necesarios.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://siose-innova.github.io/images//meetings/siose-julian.jpg&quot; alt=&quot;Presentación de Julián Delgado (IGN)&quot; itemprop=&quot;image&quot; /&gt;
+	&lt;figcaption class=&quot;text-left&quot;&gt;Julián Delgado (IGN) ayer en su presentación en la Universidad de Alicante&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;En fin, una mañana de lo más didáctica. Esperamos poder convencerles para que no sea la última presentación que hacen en el desarrollo del proyecto SIOSE-INNOVA.&lt;/p&gt;
+
+&lt;h2 id=&quot;preparando-una-encuesta-sobre-el-uso-y-difusión-del-siose&quot;&gt;Preparando una encuesta sobre el uso y difusión del SIOSE&lt;/h2&gt;
+
+&lt;p&gt;Por la tarde nos reunimos un grupo de trabajo para valorar un borrador de encuesta sobre el uso del SIOSE. Decidimos que la encuesta esté lista antes de 2 meses para poder difundirla, identificamos problemas en algunas preguntas y establecimos cómo colaborar para redactar las preguntas de un modo que no puedan resultar ambiguas para los encuestados. Finalmente, decidimos que desarrollaremos dos tareas de manera simultánea:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elaborar la encuesta siguiendo las siguientes pautas:
+    &lt;ul&gt;
+      &lt;li&gt;Preguntas con respuesta múltiple&lt;/li&gt;
+      &lt;li&gt;Plantear respuestas con pocas ramificaciones para disminuir la variabilidad&lt;/li&gt;
+      &lt;li&gt;Será un cuestionario online, con posibilidad de imprimirlo.&lt;/li&gt;
+      &lt;li&gt;Duración máxima de unos 5 min (en ningún caso más de 10 min)&lt;/li&gt;
+      &lt;li&gt;La encuesta se organizará en varios bloques, ordenados de mayor a menor importancia temática, tratando de prevenir el agotamiento de los encuestados.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compilar un listado de destinatarios lo más amplio posible:
+    &lt;ul&gt;
+      &lt;li&gt;Teniendo en cuenta que se buscan un mínimo de 300 respuestas, lo ideal sería más de un millar.&lt;/li&gt;
+      &lt;li&gt;Que comprenda personas que realmente puedan ser usuarios del SIOSE (incluyendo alumnos, profesores, profesionales, etc).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estas tareas están en pleno proceso y, en breve, esperamos poder compartir la encuesta en esta misma página web.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://siose-innova.github.io/reuniones/siose-and-its-users-community/</guid>
+			</item>
+		
+			<item>
+				<title>Introducción a Mendeley para la gestión de la bibliografía del proyecto</title>
+				<link>https://siose-innova.github.io/reuniones/bibliography-management/</link>
+				<pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+				<description>&lt;h2 id=&quot;por-qué-un-taller-sobre-mendeley&quot;&gt;¿Por qué un taller sobre Mendeley?&lt;/h2&gt;
+
+&lt;p&gt;La gestión de las referencias bibliográficas es una cuestión de gran importancia cuando se manejan una cantidad importante de documentos. Esto resulta evidente para cualquier profesional del mundo académico e investigador y es aún más cierto cuando es necesario trabajar en equipo.&lt;/p&gt;
+
+&lt;p&gt;La gestión de la bibliografía consiste en una serie de tareas repetitivas que pueden ser fácilmente automatizadas, por lo que han ido apareciendo numerosos programas informáticos y plataformas para realizar estas tareas. Existen muchas opciones que dependen de los objetivos y necesidades de cada flujo de trabajo, por lo que es difícil decantarse por una solución por encima de las demás.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Podría decirse que, frente a no utilizar ningún software para este cometido, comenzar a utilizar cualquiera sería un acierto.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://siose-innova.github.io/images//meetings/mendeley-benito.jpg&quot; alt=&quot;Benito Zaragozí (UA) durante el desarrollo del taller&quot; itemprop=&quot;image&quot; /&gt;
+	&lt;figcaption class=&quot;text-left&quot;&gt;Benito Zaragozí, ayer, impartiendo el taller sobre Mendeley que tuvo lugar en el Aula de Geomática de la Universidad de Alicante&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Resulta sencillo encontrar comparativas de algunos de estos programas, pero la más completa se encuentra en esta &lt;a href=&quot;https://en.wikipedia.org/wiki/Comparison_of_reference_management_software#Word_processor_integration&quot;&gt;entrada de la Wikipedia&lt;/a&gt;. Los aspectos valorados en esta comparativa son los siguientes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Aspectos generales (licencias, precio, frecuencia de actualización, etc)&lt;/li&gt;
+  &lt;li&gt;Sistemas operativos (Windows, Linux, MacOS, etc)&lt;/li&gt;
+  &lt;li&gt;Opciones de exportación (BibTeX, BibIX, Medline, XML, RIS, DocBook, etc)&lt;/li&gt;
+  &lt;li&gt;Opciones de importación (BibTeX, CSA, BibIX, etc)&lt;/li&gt;
+  &lt;li&gt;Estilos de citas (APA, Chicago, Harvard, etc)&lt;/li&gt;
+  &lt;li&gt;Formatos de listas bibliográficas (HTML, LaTeX, RTF, RSS, etc)&lt;/li&gt;
+  &lt;li&gt;Integración con procesadores de texto (Word, LibreOffice, LyX, etc)&lt;/li&gt;
+  &lt;li&gt;Conexión con bases de datos online (ArXiv, CiteSeer, PubMed, etc)&lt;/li&gt;
+  &lt;li&gt;Versiones online y seguridad (usuarios y/o grupos)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Una vez repasadas las distintas características de interés, &lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; es una alternativa muy interesante para gestionar la bibliografía de un proyecto de investigación como éste.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mendeley es gratuito, permite crear grupos para colaborar, trabajar on-line y off-line, proporciona más de 6000 formatos de citas (CSL), se integra con varios procesadores de texto y está conectado con las principales bases de datos de referencias bibliográficas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;mendeley-vs-refworks&quot;&gt;Mendeley vs Refworks&lt;/h2&gt;
+
+&lt;p&gt;En la Universidad de Alicante contamos con una licencia institucional de ambas plataformas: Mendeley, aunque con mayores capacidades de almacenamiento que con la versión libre y &lt;a href=&quot;https://www.refworks.com/es/&quot;&gt;Refworks&lt;/a&gt;/&lt;a href=&quot;https://refworks.proquest.com/&quot;&gt;Proquest&lt;/a&gt;. Sin embargo, en el proyecto SIOSE-INNOVA participan investigadores de distintas organizaciones que podrían no tener licencia de ningún tipo, por lo que sería más interesante utilizar un software que de una opción gratuita.&lt;/p&gt;
+
+&lt;p&gt;Por otro lado, cabe preguntarse: &lt;a href=&quot;http://guides.lib.unc.edu/comparecitationmanagers&quot;&gt;¿Qué sucede cuando nos quedamos sin licencia institucional de Refworks?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Otro aspecto no menos importante que debemos valorar es la necesidad de trabajar con &lt;strong&gt;formatos basados en estándares libres&lt;/strong&gt;. Según el &lt;a href=&quot;https://administracionelectronica.gob.es/es/ctt/eni#.WVBInO1LzBe&quot;&gt;Esquema Nacional de Interoperabilidad&lt;/a&gt; y las &lt;a href=&quot;https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#.WVBI3-1LzBe&quot;&gt;Normas Técnicas de Interoperabilidad&lt;/a&gt;, las administraciones públicas deberían utilizar formatos abiertos en vez de propietarios. Los formatos indicados se encuentran publicados en la &lt;a href=&quot;https://www.boe.es/boe/dias/2012/10/31/pdfs/BOE-A-2012-13501.pdf&quot;&gt;Resolución  de  3  de  octubre  de  2012,  de  la Secretaría de Estado de Administraciones  Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares.&lt;/a&gt; y exluyen formatos propietarios como los de Microsoft Office que integra Refworks. En cambio Mendeley cuenta con un plugin que funciona en LibreOffice, por lo que sería una buena alternativa para cumplir con la legalidad en la documentación del proyecto.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, se podría argumentar que la exportación a PDF sería suficiente para cumplir con la Ley, pero resulta que no todos los documentos en formato PDF seguirían el estándar del mismo modo. Resulta interesante leer &lt;a href=&quot;http://www.eldiario.es/turing/software_libre/estandar-documentos-Administraciones-Publicas-Espana_0_311469935.html&quot;&gt;este artículo sobre el tema&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;una-introducción-a-mendeley&quot;&gt;Una introducción a Mendeley&lt;/h2&gt;
+
+&lt;p&gt;Mendeley cuenta con numerosos recursos y tutoriales para aprender a utilizar la plataforma. Sin embargo, esta presentación es breve y sigue el orden que se verá en este taller del proyecto.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/lmDrr1xkCAyf3Y&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/AhmadRb/introduction-tomendeley-presentation2014&quot; title=&quot;Introduction to-mendeley presentation-2014&quot; target=&quot;_blank&quot;&gt;Introduction to-mendeley presentation-2014&lt;/a&gt; &lt;/strong&gt; de &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.slideshare.net/AhmadRb&quot;&gt;Ir. Dr. R.Badlishah Ahmad&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;h2 id=&quot;ejercicios-y-trabajo-en-equipo&quot;&gt;Ejercicios y trabajo en equipo&lt;/h2&gt;
+
+&lt;p&gt;Durante esta sesión, los asistentes se crearon un perfil en Mendeley, instalaron Mendeley Desktop y tuvieron oportunidad de compartir documentos en el grupo del proyecto. &lt;strong&gt;Una terminada la sesión de la tarde se espera que cada asistente sea capaz de:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Añadir referencias a su Mendeley local&lt;/li&gt;
+  &lt;li&gt;Organizar sus documentos locales&lt;/li&gt;
+  &lt;li&gt;Compartir referencias con el grupo SIOSE-INNOVA&lt;/li&gt;
+  &lt;li&gt;Citar las referencias en un documento de texto de LibreOffice. Puede ser útil consultar &lt;a href=&quot;https://www.mendeley.com/guides/using-citation-editor&quot;&gt;el tutorial sobre los plugins de Mendeley&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Finalmente, con todo lo aprendido se dedicó un tiempo a definir como se gestionará el trabajo en los proyectos relacionados con el SIOSE-INNOVA y a añadir todas las referencias que dé tiempo.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://siose-innova.github.io/reuniones/bibliography-management/</guid>
+			</item>
+		
+			<item>
+				<title>Primera reunión del proyecto SIOSE-INNOVA</title>
+				<link>https://siose-innova.github.io/reuniones/first-meeting/</link>
+				<pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+				<description>&lt;h2 id=&quot;presentación-de-diapositivas&quot;&gt;Presentación de diapositivas&lt;/h2&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/G7tUtPcThoZ05u&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Esta presentación ha sido editada y contiene ligeras modificaciones respecto a la que se ve en el vídeo.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://siose-innova.github.io/reuniones/first-meeting/</guid>
+			</item>
+		
+			<item>
+				<title>Presentación de la nueva página web</title>
+				<link>https://siose-innova.github.io/noticias/inaguration-website/</link>
+				<pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+				<description>&lt;h2 id=&quot;desarrollo-de-la-web&quot;&gt;Desarrollo de la web&lt;/h2&gt;
+
+&lt;p&gt;Esta página web ha sido desarrollada utilizando &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; y está basada en el tema &lt;a href=&quot;https://phlow.github.io/feeling-responsive/&quot;&gt;Feeling Responsive&lt;/a&gt;. Además, el sitio web se publica desde &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. El uso software libre y la gestión &lt;em&gt;descentralizada&lt;/em&gt; de cada proyecto son parte del día a día en el Proyecto SIOSE-INNOVA. El desarrollo de la página web con estas tecnologías es en sí una declaración de intenciones.&lt;/p&gt;
+
+&lt;h2 id=&quot;siempre-informados-de-los-últimos-desarrollos&quot;&gt;Siempre informados de los últimos desarrollos&lt;/h2&gt;
+
+&lt;p&gt;El proyecto SIOSE-INNOVA es un proyecto multidisciplinar en el que colaboran investigadores de distintos centros. Desde esta página web informaremos sobre todos los avances realizados en el proyecto y, en breve, también se publicarán noticias por otros medios (Twitter, Facebook, lista de E-mails, etc). Por el momento, puede seguir las últimas novedades suscribiendose a &lt;a href=&quot;/feed.xml&quot;&gt;RSS&lt;/a&gt; o &lt;a href=&quot;/atom.xml&quot;&gt;Atom&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si desea hablar con nosotros personalmente, no dude en contactar con la &lt;a href=&quot;/contact/&quot;&gt;coordinación del proyecto&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://siose-innova.github.io/noticias/inaguration-website/</guid>
+			</item>
+		
+	</channel>
+</rss>

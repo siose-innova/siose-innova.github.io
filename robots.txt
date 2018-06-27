@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://siose-innova.github.io/sitemap.xml
